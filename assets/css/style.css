@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "ubuntu", sans-serif;
+    
+}
+
+/*------- Navbar -----------*/
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #f4da48;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+
+
+.dropdown-menu {
+    background: #3b3140;
+}
+
+.dropdown-menu a {
+    color: #f4da48;
+    font-size: 1.2rem;
+}
