@@ -31,3 +31,74 @@ body {
     color: #f4da48;
     font-size: 1.2rem;
 }
+
+/*----------- Jumbotron -------------*/
+.callout-container {
+    height: 100vh;
+
+    background: url("../images/new-york.jpg") no-repeat bottom right fixed ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.callout-container img {
+    max-width: 100%;
+}
+
+#logo{
+opacity:0;
+transition: 1s;
+transition-delay: 5.5s;
+}
+
+.ml4 {
+    position: relative;
+    font-weight: 900;
+    font-size: 4.5em;
+    text-align: center;
+    color: #f4da48;
+}
+.ml4 .letters {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0.3em;
+    right: 0;
+    opacity: 0; 
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6) ;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px; 
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #f4da48;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #fff;
+}
