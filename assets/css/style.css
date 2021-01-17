@@ -54,7 +54,7 @@ body {
 #logo{
 opacity:0;
 transition: 1s;
-transition-delay: 5.5s;
+transition-delay: 4.5s;
 }
 
 .ml4 {
@@ -191,4 +191,29 @@ transition-delay: 5.5s;
 
 .place_info a:hover {
     color: #1EC6B6;
+}
+
+
+/*----- button ---------*/
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+    
+    
+}
+
+.btn--red {
+    color: white;
+    background-color: #3b3140;
+    border-color: #219ab3;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #219ab3;
+    border-color: #219ab3;
 }
