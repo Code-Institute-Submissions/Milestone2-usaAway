@@ -280,6 +280,56 @@ transition-delay: 4.5s;
     background: #fff;
 }
 
+/* -----------------Map Section destination page-------------*/
+.map-title-col,
+.packages-title-col {
+  height: 26rem;
+}
+.details-section-heading,
+.map-section-heading {
+  margin-top: 5rem;
+  border-bottom: solid 2px #fafafb;
+}
+.map-btn-col {
+  height: 30rem;
+}
+.map-col {
+  height: 30rem;
+}
+.map-results-col {
+  height: 30rem;
+}
+.map-btn {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+.map-btn-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+#map {
+  height: 100%;
+  width: 100%;
+}
+.map-subheading {
+  margin: 0.5rem 0;
+  font-size: 2.75rem;
+  text-align: center;
+}
+#panel {
+  background-color: #fafafb;
+  height: 22.5rem;
+  width: 35rem;
+  overflow-x: hidden;
+  transition: all 0.2s ease-out;
+  position: relative;
+  display: block;
+  margin: auto;
+  box-shadow: 1rem 1rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
 /*------- Footer --------*/
 .footer-row {
     height: 10px;

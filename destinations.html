@@ -37,7 +37,7 @@
                             Choose Your Getaway
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">City Breaks</a>
+                            <a class="dropdown-item" href="destinations.html">City Breaks</a>
                             <a class="dropdown-item" href="#">USA Road Trips</a>
                             <a class="dropdown-item" href="#">Orlando Magic</a>
                         </div>
@@ -50,6 +50,71 @@
         </nav>
 
     </header>
+
+    <!--Map section-->
+		<section id="map-section">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col map-title-col">
+						<h2 class="map-section-heading section-heading">
+							Map of local Attractions
+						</h2>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-3 map-btn-col">
+						<h2 class="map-subheading">Choose an Attraction</h2>
+						<ul class="map-btn-list">
+							<li>
+								<button id="shopping-btn" class="map-btn link">
+                    shopping
+                  </button>
+							</li>
+							<li>
+								<button id="attraction-btn" class="map-btn link">
+                    Tourist Attractions
+                  </button>
+							</li>
+							<li>
+								<button id="parks-btn" class="map-btn link">Parks</button>
+							</li>
+							<li>
+								<button id="restaurant-btn" class="map-btn link">
+                    Restaurants
+                  </button>
+							</li>
+							<li>
+								<button id="bars-btn" class="map-btn link">Night Life</button>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-6 map-col">
+						<div id="map"></div>
+                         <div class="no-destination center"></div>
+					</div>
+					<div class="col-md-3 map-results-col">
+						<h2 class="map-subheading">Result</h2>
+						<div id="panel" class="hidden">
+							<div class="result-img-container">
+							</div>
+							<div class="result-text-container">
+								<div class="result-text center">
+									<div class="result-heading">
+									</div>
+									<div class="rating">
+									</div>
+									<div class="result-address">
+									</div>
+									<div class="web-address"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 
     <!-- Footer -->
@@ -72,6 +137,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Google Maps markercluster library Script -->
+<script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js" defer></script>
+<!-- Google Maps Api including places library Script -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyTNuEqMrBmLaJqQFFMgLilYlZBZaorTAlibraries=places"
+	defer></script>
+<!-- Google Maps javascript file-->
+<script  src="assets/js/maps.js" defer></script>
 <script src="/assets/js/main.js"></script>
 </body>
 </html>
