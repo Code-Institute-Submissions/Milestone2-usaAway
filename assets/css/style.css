@@ -14,6 +14,10 @@ body {
     font-size: 30px;
 }
 
+.navbar-nav {
+    font-size: 20px;
+}
+
 
 
 
@@ -87,6 +91,58 @@ transition-delay: 4.5s;
     font-style: italic;
     color: #fff;
 }
+
+/*---------- About Modal ---------------*/
+.modal-content {
+  padding: 20px;
+}
+
+.modal-header {
+    text-align: center;
+  border-bottom: none;
+  padding: 20px;
+}
+
+.modal-title {
+    text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #636363;
+}
+
+.modal-body p {
+  color: #636363;
+  font-family: "Roboto", sans-serif;
+  line-height: 2;
+  padding: 0 20px;
+  letter-spacing: 0;
+  text-transform: none;
+  text-align: center;
+}
+
+.modal-body .about-img {
+  max-width: 50%;
+  margin-bottom: 20px;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.modal-footer .btn {
+  background-color: #636363;
+  color: #fffded;
+  padding: 15px 30px;
+  letter-spacing: 5px;
+}
+
+.modal-footer .btn:hover {
+  background-color: #2e2e2e;
+  border: none;
+}
+
+
 
 /*------------ Offers & Deals section -------------*/
 

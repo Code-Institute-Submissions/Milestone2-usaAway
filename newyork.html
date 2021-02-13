@@ -24,16 +24,38 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="#">New York</a>
+                    <a class="nav-link active" href="index.html">Home</a>
+                    <a class="nav-link" href="newyork.html">New York <span class="sr-only">(current)</span></a>
                     <a class="nav-link" href="#">San Francisco</a>
                     <a class="nav-link" href="#">Las Vegas</a>
+                    <a class="nav-item nav-link" data-toggle="modal" data-target="#contactModal" href="#">Contact</a>
                     
                 </div>
             </div>
         </nav>
 
     </header>
+
+    <!-- Bootstrap Modal from Bootstrap documentation-->
+
+	<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="contactModalLabel">Contact</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
          <!--Section start-->
     <section>
@@ -206,8 +228,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
 <script
+async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjTqMFU-YTWqEutCMVeGn9yDg6TGqMEKY&callback=initMap&libraries=&v=weekly"
-    defer
 ></script>
     <!--Map.js import-->
 <script src="assets/js/map.js"></script>
