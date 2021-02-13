@@ -23,11 +23,11 @@ body {
 
 
 
-.dropdown-menu {
+.dropdown-menu-main {
     background: #3b3140;
 }
 
-.dropdown-menu a {
+.dropdown-menu-main a {
     color: #f4da48;
     font-size: 1.2rem;
 }
@@ -280,55 +280,161 @@ transition-delay: 4.5s;
     background: #fff;
 }
 
-/* -----------------Map Section destination page-------------*/
-.map-title-col,
-.packages-title-col {
-  height: 26rem;
+
+/* Destination Hero Images start */
+
+.hero-image-container {
+  padding: 0;
 }
-.details-section-heading,
-.map-section-heading {
-  margin-top: 5rem;
-  border-bottom: solid 2px #fafafb;
-}
-.map-btn-col {
-  height: 30rem;
-}
-.map-col {
-  height: 30rem;
-}
-.map-results-col {
-  height: 30rem;
-}
-.map-btn {
-  font-size: 1.5rem;
-  margin-top: 0.5rem;
+
+.hero-images {
   width: 100%;
+  height: 66vh;
+  object-fit: cover;
 }
-.map-btn-list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
+
+.sydney-hero-image {
+  object-position: 90% 50%;
 }
-#map {
+
+.melbourne-hero-image {
+  object-position: 80% 80%;
+}
+
+.brisbane-hero-image {
+  object-position: 50% 70%;
+}
+
+/* Destination Hero Images end */
+
+/* Quotes start */
+
+.blockquote-footer::before {
+  content: "";
+}
+
+/* Quotes end */
+
+/* Dropdown menu start */
+
+#dropdownMenuButton {
+  width: 60%;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+.dropdown-menu {
+  width: 60%;
+  background-color: #fafafa;
+}
+
+.dropdown-toggle {
+  background-color: #fafafa;
+  border: 2px solid #20234e;
+  color: #20234e;
+  border-radius: 23px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.dropdown-toggle:hover {
+  background-color: #20234e;
+  color: #fafafa;
+}
+
+.dropdown-item {
+  color: #20234e;
+  font-family: "Montserrat", sans-serif;
+}
+
+.dropdown-item:hover {
+  color: #fafafa;
+  background-color: #20234e;
+  border-radius: 0px;
+}
+
+/* Dropdown Menu end */
+
+/* Map start */
+
+#map-view {
+  width: 100%;
+  height: 480px;
+  background-color: grey;
+}
+
+.map-tabs {
+  width: 50%;
   height: 100%;
-  width: 100%;
+  padding: 0;
+  margin-bottom: 30px;
 }
-.map-subheading {
-  margin: 0.5rem 0;
-  font-size: 2.75rem;
-  text-align: center;
+
+.map-tabs .nav-link {
+  background-color: #fafafa;
+  font-family: "Montserrat", sans-serif;
+  color: #20234e;
+  font-weight: 400;
+  border-radius: 23px 0 0 23px;
+  border: 2px solid #20234e;
+  padding: 5px;
 }
-#panel {
-  background-color: #fafafb;
-  height: 22.5rem;
-  width: 35rem;
-  overflow-x: hidden;
-  transition: all 0.2s ease-out;
+
+.map-tabs:first-of-type .nav-link {
+  border-radius: 23px 0 0 23px;
+}
+
+.map-tabs:last-of-type .nav-link {
+  border-radius: 0 23px 23px 0;
+}
+
+.map-tabs .active {
+  background-color: #20234e !important;
+  color: #fafafa !important;
+}
+
+/* Map end */
+
+/* Results table start */
+
+.results-height {
   position: relative;
-  display: block;
-  margin: auto;
-  box-shadow: 1rem 1rem 0.5rem rgba(0, 0, 0, 0.5);
+  height: 480px;
 }
+
+#resultsTable {
+  display: block;
+  overflow: scroll;
+  height: 480px;
+  margin-bottom: 0px;
+}
+
+.odd {
+  background-color: #fafafa;
+}
+
+.even {
+  background-color: #c2dfff;
+}
+
+/* Results table end */
+
+/* Info Window start */
+
+#info-window {
+    max-width: 300px;
+}
+
+#info-window th,
+#info-window tr {
+  padding: 5px;
+}
+
+#info-window img {
+  height: 20px;
+}
+
+/* Info Window end */
+
 
 /*------- Footer --------*/
 .footer-row {
