@@ -33,8 +33,8 @@ function getCity() {
     return new google.maps.LatLng(-37.8177089, 144.9668995);
   } else if (cityName === "Sydney") {
     return new google.maps.LatLng(-33.8676561, 151.2076709);
-  } else if (cityName === "Brisbane") {
-    return new google.maps.LatLng(-27.4692952, 153.0250476);
+  } else if (cityName === "New York") {
+    return new google.maps.LatLng(40.7565682375124, -73.98645264257846);
   } else {
     return false;
   }
@@ -46,7 +46,7 @@ function initMap() {
   // Creates the map on the map-view ID and sets the map options. Code is from https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch.
 
   map = new google.maps.Map(document.getElementById("map-view"), {
-    zoom: 15,
+    zoom: 14,
     center: getCity(),
     mapTypeControl: false,
     panControl: false,

@@ -10,27 +10,12 @@ body {
 
 /*------- Navbar -----------*/
 
-.navbar-dark .navbar-nav .nav-link {
-    color: #f4da48;
-    text-transform: uppercase;
-    font-weight: 500;
-
-}
-
-.navbar-dark .navbar-nav .nav-link:hover {
-    color: #fff;
+.navbar-brand {
+    font-size: 30px;
 }
 
 
 
-.dropdown-menu-main {
-    background: #3b3140;
-}
-
-.dropdown-menu-main a {
-    color: #f4da48;
-    font-size: 1.2rem;
-}
 
 /*----------- Jumbotron -------------*/
 .callout-container {
@@ -360,6 +345,7 @@ transition-delay: 4.5s;
   width: 100%;
   height: 480px;
   background-color: grey;
+  margin-left: 100px;
 }
 
 .map-tabs {
