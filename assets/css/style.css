@@ -150,6 +150,31 @@ transition-delay: 4.5s;
   border: none;
 }
 
+/* Destination Hero Images start */
+
+.hero-image-container {
+  padding: 0;
+}
+
+.hero-images {
+  width: 100%;
+  height: 66vh;
+  object-fit: cover;
+}
+
+.lasvegas-hero-image {
+  object-position: 5% 5%;
+}
+
+.sanfrancisco-hero-image {
+  object-position: 10% 10%;
+}
+
+.newyorkcity-hero-image {
+  object-position: 20% 20%;
+}
+
+/* Destination Hero Images end */
 
 
 /*------------ Offers & Deals section -------------*/

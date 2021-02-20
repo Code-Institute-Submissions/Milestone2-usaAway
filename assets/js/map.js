@@ -32,9 +32,9 @@ function getCity() {
   if (cityName === "New York City") {
     return new google.maps.LatLng(40.754037, -73.984577);
   } else if (cityName === "San Francisco") {
-    return new google.maps.LatLng(-33.8676561, 151.2076709);
+    return new google.maps.LatLng(37.798417, -122.417868);
   } else if (cityName === "Las Vegas") {
-    return new google.maps.LatLng(40.7565682375124, -73.98645264257846);
+    return new google.maps.LatLng(36.114011, -115.172758);
   } else {
     return false;
   }
