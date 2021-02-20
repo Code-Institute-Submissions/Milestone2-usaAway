@@ -409,7 +409,7 @@ transition-delay: 4.5s;
   width: 100%;
   height: 480px;
   background-color: grey;
-  margin-left: 100px;
+  
 }
 
 .map-tabs {
@@ -464,7 +464,7 @@ transition-delay: 4.5s;
 }
 
 #resultsTable {
- /* display: block;*/
+ display: block;
   overflow: scroll;
   height: 480px;
   margin-bottom: 0px;

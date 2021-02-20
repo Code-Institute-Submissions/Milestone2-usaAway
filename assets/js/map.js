@@ -84,7 +84,7 @@ function search() {
 
   let request = {
     location: map.getCenter(),
-    radius: "500",
+    radius: "2000",
     type: $(".dropdown-toggle").val(),
   };
 
@@ -219,7 +219,7 @@ function getPlaceDetails(marker) {
         // Table was styled using the bootstrap table-borderless css class from https://getbootstrap.com/docs/4.5/content/tables/.
         `<table id="info-window" class="table-borderless table-font"><thead><tr><th class="text-right"><img src="${
           results.icon
-        }"></th><th><a href="${results.website}">${
+        }"></th><th><a href="${results.website}" target="_blank">${
           results.name
         }</a></th></tr></thead><tbody>${notUndefined(
           "Address:",
