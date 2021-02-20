@@ -196,7 +196,7 @@ transition-delay: 4.5s;
 .popular_places_area {
     padding-top: 142px;
     padding-bottom: 150px;
-    background: url("../assets/images/yosemite.jpg") no-repeat bottom right fixed;
+    background: url("/assets/images/yosemite.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
