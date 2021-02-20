@@ -25,7 +25,7 @@ body {
 .callout-container {
     height: 100vh;
 
-    background: url("../images/new-york.jpg") no-repeat bottom right fixed ; 
+    background: url("../images/new-york.jpg") no-repeat center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -38,6 +38,14 @@ body {
 
 .callout-container img {
     max-width: 100%;
+}
+
+.content-container {
+  padding: 0 30px 30px;
+}
+
+.content-wrapper {
+  background-color: #fafafa;
 }
 
 #logo{
@@ -437,6 +445,18 @@ transition-delay: 4.5s;
 /* Map end */
 
 /* Results table start */
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.table-text {
+  font-family: "Ubuntu", sans-serif;
+  color: #20234e;
+  text-transform: capitalize;
+}
 
 .results-height {
   position: relative;
@@ -444,18 +464,18 @@ transition-delay: 4.5s;
 }
 
 #resultsTable {
-  display: block;
+ /* display: block;*/
   overflow: scroll;
   height: 480px;
   margin-bottom: 0px;
 }
 
 .odd {
-  background-color: #fafafa;
+  background-color: #fefefe;
 }
 
 .even {
-  background-color: #c2dfff;
+  background-color: #1EC6B6;
 }
 
 /* Results table end */
@@ -479,6 +499,7 @@ transition-delay: 4.5s;
 
 
 /*------- Footer --------*/
+
 .footer-row {
     height: 10px;
 }
@@ -522,4 +543,18 @@ transition-delay: 4.5s;
 .btn--red:active:focus {
     background-color: #219ab3;
     border-color: #219ab3;
+}
+
+/*------ Media Queries ----------*/
+
+@media (min-width: 768px) {
+  .content-container {
+    padding: 0 0 30px;
+  }
+
+  #map-view,
+  #list-view {
+    display: block;
+    opacity: 1;
+  }
 }

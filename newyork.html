@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Enter your description here"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-<link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>usaAway</title>
@@ -29,7 +30,7 @@
                     <a class="nav-link" href="#">San Francisco</a>
                     <a class="nav-link" href="#">Las Vegas</a>
                     <a class="nav-item nav-link" data-toggle="modal" data-target="#contactModal" href="#">Contact</a>
-                    
+
                 </div>
             </div>
         </nav>
@@ -38,201 +39,159 @@
 
     <!-- Bootstrap Modal from Bootstrap documentation-->
 
-	<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="contactModalLabel">Contact</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalLabel">Contact</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
-         <!--Section start-->
+    <!--Section start-->
     <section>
-      <!--Hero Image start-->
-      <div class="row no-gutters">
-        <div class="col-12">
-          <!--Image from https://www.shutterstock.com/image-photo/arches-covered-pink-bougainvillea-flowers-southbank-379090987-->
-          <img
-            class="hero-images brisbane-hero-image"
-            src="assets/images/newyorkcity.jpg"
-            alt="Image of Brisbane's South Bank arches"
-          />
+        <!--Hero Image start-->
+        <div class="row no-gutters">
+            <div class="col-12">
+                <!--Image from https://www.shutterstock.com/image-photo/arches-covered-pink-bougainvillea-flowers-southbank-379090987-->
+                <img class="hero-images newyorkcity-hero-image" src="assets/images/newyorkcity.jpg"
+                    alt="Image of New York Skyline" />
+            </div>
         </div>
-      </div>
-      <!--Hero Image end-->
-      <!--Main content container start-->
-      <div class="content-wrapper">
-        <div class="container content-container">
-          <!--Section Heading start-->
-          <div class="row no-gutters">
-            <div class="col-12">
-              <h1 class="section-heading text-center">New York City</h1>
-            </div>
-          </div>
-          <!--Section Heading end-->
-          <!--Quote start-->
-          <div class="row no-gutters">
-            <div class="col-12 text-center">
-              <!--Blockquote code from https://getbootstrap.com/docs/4.5/content/typography/#blockquotes-->
-              <blockquote class="blockquote quotes">
-                <!--Text from google-->
-                <p class="paragraph blockquote-text">
-                  New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. 
-                  At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, 
-                  financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building 
-                  and sprawling Central Park. Broadway theater is staged in neon-lit Times Square.
-                </p>
-                
-              </blockquote>
-            </div>
-          </div>
-          <!--Quote end-->
-          <!--Dropdown start. Code from https://getbootstrap.com/docs/4.5/components/dropdowns/-->
-          <div class="dropdown text-center">
-            <button
-              class="dropdown-toggle"
-              value="tourist_attraction"
-              type="button"
-              id="dropdownMenuButton"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Attractions
-            </button>
-            <div
-              class="dropdown-menu dropdown-menu-center"
-              aria-labelledby="dropdownMenuButton"
-            >
-              <button class="dropdown-item" value="tourist_attraction">
-                Attractions
-              </button>
-              <button class="dropdown-item" value="lodging">Hotels</button>
-              <button class="dropdown-item" value="cafe">
-                Cafes
-              </button>
-              <button class="dropdown-item" value="bar">
-                Bars
-              </button>
-              <button class="dropdown-item" value="restaurant">
-                Restaurants
-              </button>
-              <button class="dropdown-item" value="shopping_mall">
-                Shopping
-              </button>
-            </div>
-          </div>
-          <!--Dropdown end-->
-          <!--Map and results table start-->
-          <div class="row no-gutters">
-            <!--Tabs start. Code from https://getbootstrap.com/docs/4.5/components/navs/#tabs-->
-            <div class="d-block d-md-none col-12">
-              <ul class="nav nav-pills" id="pills-tab" role="tablist">
-                <li class="nav-item text-center map-tabs" role="presentation">
-                  <a
-                    class="nav-link active"
-                    id="map-view-tab"
-                    data-toggle="pill"
-                    href="#map-view"
-                    role="tab"
-                    aria-controls="map-view"
-                    aria-selected="true"
-                    >Map View</a
-                  >
-                </li>
-                <li class="nav-item text-center map-tabs" role="presentation">
-                  <a
-                    class="nav-link"
-                    id="list-view-tab"
-                    data-toggle="pill"
-                    href="#list-view"
-                    role="tab"
-                    aria-controls="list-view"
-                    aria-selected="false"
-                    >List View</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <!--Tabs end-->
-            <!--Tab content start. Code from https://getbootstrap.com/docs/4.5/components/navs/#tabs-->
-            <div class="col-12">
-              <div class="row no-gutters tab-content" id="pills-tabContent">
-                <!--Map start-->
-                <div
-                  class="col-12 col-md-8 tab-pane fade show active"
-                  id="map-view"
-                  role="tabpanel"
-                  aria-labelledby="map-view-tab"
-                ></div>
-                <!--Map end-->
-                <!--Results table start-->
-                <div
-                  class="col-12 col-md-4 table-text tab-pane fade"
-                  id="list-view"
-                  role="tabpanel"
-                  aria-labelledby="list-view-tab"
-                ></div>
+        <!--Hero Image end-->
+        <!--Main content container start-->
+        <div class="content-wrapper">
+            <div class="container content-container">
+                <!--Section Heading start-->
+                <div class="row no-gutters">
+                    <div class="col-12">
+                        <h1 class="section-heading text-center">New York City</h1>
+                    </div>
+                </div>
+                <!--Section Heading end-->
+                <!--Quote start-->
+                <div class="row no-gutters">
+                    <div class="col-12 text-center">
+                        <!--Blockquote code from https://getbootstrap.com/docs/4.5/content/typography/#blockquotes-->
+                        <blockquote class="blockquote quotes">
+                            <!--Text from google-->
+                            <p class="paragraph blockquote-text">
+                                New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic
+                                Ocean.
+                                At its core is Manhattan, a densely populated borough that’s among the world’s major
+                                commercial,
+                                financial and cultural centers. Its iconic sites include skyscrapers such as the Empire
+                                State Building
+                                and sprawling Central Park. Broadway theater is staged in neon-lit Times Square.
+                            </p>
+
+                        </blockquote>
+                    </div>
+                </div>
+                <!--Quote end-->
+                <!--Dropdown start. Code from https://getbootstrap.com/docs/4.5/components/dropdowns/-->
+                <div class="dropdown text-center">
+                    <button class="dropdown-toggle" value="tourist_attraction" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Attractions
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-center" aria-labelledby="dropdownMenuButton">
+                        <button class="dropdown-item" value="tourist_attraction">
+                            Attractions
+                        </button>
+                        <button class="dropdown-item" value="lodging">Hotels</button>
+                        <button class="dropdown-item" value="cafe">
+                            Cafes
+                        </button>
+                        <button class="dropdown-item" value="bar">
+                            Bars
+                        </button>
+                        <button class="dropdown-item" value="restaurant">
+                            Restaurants
+                        </button>
+                        <button class="dropdown-item" value="shopping_mall">
+                            Shopping
+                        </button>
+                    </div>
+                </div>
+                <!--Dropdown end-->
+                <!--Map and results table start-->
+                <div class="row no-gutters">
+                    <!--Tabs start. Code from https://getbootstrap.com/docs/4.5/components/navs/#tabs-->
+                    <div class="d-block d-md-none col-12">
+                        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                            <li class="nav-item text-center map-tabs" role="presentation">
+                                <a class="nav-link active" id="map-view-tab" data-toggle="pill" href="#map-view"
+                                    role="tab" aria-controls="map-view" aria-selected="true">Map View</a>
+                            </li>
+                            <li class="nav-item text-center map-tabs" role="presentation">
+                                <a class="nav-link" id="list-view-tab" data-toggle="pill" href="#list-view" role="tab"
+                                    aria-controls="list-view" aria-selected="false">List View</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Tabs end-->
+                    <!--Tab content start. Code from https://getbootstrap.com/docs/4.5/components/navs/#tabs-->
+                    <div class="col-12">
+                        <div class="row no-gutters tab-content" id="pills-tabContent">
+                            <!--Map start-->
+                            <div class="col-12 col-md-8 tab-pane fade show active" id="map-view" role="tabpanel"
+                                aria-labelledby="map-view-tab"></div>
+                            <!--Map end-->
+                            <!--Results table start-->
+                <div class="col-12 col-md-4 table-text tab-pane fade" id="list-view" role="tabpanel" aria-labelledby="list-view-tab">
+                </div>
                 <!--Results table end-->
-              </div>
+                        </div>
+                    </div>
+                    <!--Tab content end-->
+                </div>
+                <!--Map and results table end-->
+                
             </div>
-            <!--Tab content end-->
-          </div>
-          <!--Map and results table end-->
-          <!--Back to top of page button start-->
-          <div class="row no-gutters">
-            <div class="col">
-              <a class="top-of-page text-center hvr-grow d-none">
-                <!--Arrow up code from https://fontawesome.com/icons/arrow-up?style=solid-->
-                <i class="fas fa-arrow-up" aria-hidden="true"></i>
-                <span class="sr-only">Back to top of page</span>
-              </a>
-            </div>
-          </div>
-          <!--Back to top of page button start-->
         </div>
-      </div>
-      <!--Main content container end-->
+        <!--Main content container end-->
     </section>
     <!--Section end-->
 
 
-        <footer>
+    <footer>
         <div class="container-fluid">
             <div class="row footer-row">
                 <ul class="socials">
-                    <li><a href="https://www.tripadvisor.co.uk/" target="_blank"></a><i class="fab fa-tripadvisor"></i></li>
+                    <li><a href="https://www.tripadvisor.co.uk/" target="_blank"></a><i class="fab fa-tripadvisor"></i>
+                    </li>
                     <li><a href="https://www.instagram.com/" target="_blank"></a><i class="fab fa-instagram"></i></li>
                     <li><a href="https://www.facebook.com/" target="_blank"></a><i class="fab fa-facebook"></i></li>
-                    <li><a href="https://twitter.com/?lang=en-gb" target="_blank"></a><i class="fab fa-twitter"></i></li>
-                </ul>   
+                    <li><a href="https://twitter.com/?lang=en-gb" target="_blank"></a><i class="fab fa-twitter"></i>
+                    </li>
+                </ul>
             </div>
         </div>
-        
+
     </footer>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-
-<script
-async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjTqMFU-YTWqEutCMVeGn9yDg6TGqMEKY&callback=initMap&libraries=&v=weekly"
-></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjTqMFU-YTWqEutCMVeGn9yDg6TGqMEKY&callback=initMap&libraries=places,geometry&v=weekly"></script>
     <!--Map.js import-->
-<script src="assets/js/map.js"></script>
-<script src="/assets/js/main.js"></script>
+    <script src="assets/js/map.js"></script>
 </body>
+
 </html>

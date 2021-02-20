@@ -29,11 +29,11 @@ let rating;
 
 function getCity() {
   let cityName = $("h1").html();
-  if (cityName === "Melbourne") {
-    return new google.maps.LatLng(-37.8177089, 144.9668995);
-  } else if (cityName === "Sydney") {
+  if (cityName === "New York City") {
+    return new google.maps.LatLng(40.754037, -73.984577);
+  } else if (cityName === "San Francisco") {
     return new google.maps.LatLng(-33.8676561, 151.2076709);
-  } else if (cityName === "New York") {
+  } else if (cityName === "Las Vegas") {
     return new google.maps.LatLng(40.7565682375124, -73.98645264257846);
   } else {
     return false;
@@ -88,7 +88,7 @@ function search() {
     type: $(".dropdown-toggle").val(),
   };
 
-  // Conducts the search and processes the results if the search returns a status of OK. Code for conducting the search and ckecking it returns a status of OK is from https://developers.google.com/maps/documentation/javascript/places#place_search_requests
+  // Conducts the search and processes the results if the search returns a status of OK. Code for conducting the search and checking it returns a status of OK is from https://developers.google.com/maps/documentation/javascript/places#place_search_requests
 
   service.nearbySearch(request, function (results, status) {
     if (status == google.maps.places.PlacesServiceStatus.OK) {

@@ -16,34 +16,22 @@
 <body>
 
     <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-none">
+        
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">usaΛway</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="index.html">Home</a>
+                    <a class="nav-link" href="newyork.html">New York <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">San Francisco</a>
+                    <a class="nav-link" href="#">Las Vegas</a>
+                    <a class="nav-item nav-link" data-toggle="modal" data-target="#contactModal" href="#">Contact</a>
                     
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle-main" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Choose Your City
-                        </a>
-                        <div class="dropdown-menu-main" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="newyork.html">New York</a>
-                            <a class="dropdown-item" href="#">San Francisco</a>
-                            <a class="dropdown-item" href="#">Las Vagas</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+                </div>
             </div>
         </nav>
 
