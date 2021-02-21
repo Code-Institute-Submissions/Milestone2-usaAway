@@ -29,7 +29,7 @@
                     <a class="nav-link" href="newyork.html">New York</a>
                     <a class="nav-link" href="sanfran.html">San Francisco</a>
                     <a class="nav-link" href="lasvegas.html">Las Vegas</a>
-                    <a class="nav-item nav-link" data-toggle="modal" data-target="#contactModal" href="#">Contact</a>
+                    <a class="nav-item nav-link" data-toggle="modal" data-target="#contactUsForm" href="#contactUsForm">Contact</a>
                     
                 </div>
             </div>
@@ -37,26 +37,24 @@
 
     </header>
 
-    <!-- Bootstrap Modal from Bootstrap documentation-->
-
-    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <!-- Modal start. Code from https://getbootstrap.com/docs/4.5/components/modal/-->
+    <div class="modal fade" id="contactUsForm" tabindex="-1" aria-labelledby="contactUsForm" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
+            <div class="modal-content text-center">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="contactModalLabel">Contact</h5>
+                    <h5 class="modal-title" id="contactUs">
+                        Contact Us
+                    </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <div class="modal-body d-flex justify-content-center align-items-center">
                 </div>
             </div>
         </div>
     </div>
+
 
     <!-- Callout -->
 
@@ -64,7 +62,7 @@
     <div class="container-fluid callout-container">
         
         <div class="opaque-overlay">&nbsp;</div>
-        <div class="row">
+        <div class="row no-gutters">
             <div class="col-12">
                 <h1 class="ml4">
                     <span class="letters letters-1">Ready</span>
@@ -197,6 +195,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!--EmailJS import. Code from https://www.emailjs.com/docs/sdk/installation/-->
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<!--Email.js import-->
+<script src="assets/js/email.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>

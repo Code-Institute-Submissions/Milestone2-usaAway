@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+html {
+    height: 100vh;
+    width: auto;
+}
+
 body {
     font-family: "ubuntu", sans-serif;
     
@@ -18,7 +23,42 @@ body {
     font-size: 20px;
 }
 
+/* Contact Form start */
 
+.modal-content {
+  height: 477px;
+}
+
+.modal-title {
+  padding-left: 2rem;
+  width: 100%;
+}
+
+.modal-body form {
+    width: 100%;
+}
+
+.contact-form {
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  color: #20234e;
+}
+
+.btn {
+  font-family: "Ubuntu", sans-serif;
+  color: #20234e;
+  background-color: #fafafa;
+  border: 2px solid #20234e;
+  border-radius: 23px;
+  text-transform: none;
+}
+
+.btn:hover {
+  background-color: #20234e;
+  color: #fafafa;
+}
+
+/* Contact Form end */
 
 
 /*----------- Jumbotron -------------*/
@@ -571,6 +611,7 @@ transition-delay: 5s;
 }
 
 /*------ Media Queries ----------*/
+
 
 @media (min-width: 768px) {
   .content-container {

@@ -29,30 +29,27 @@
                     <a class="nav-link active" href="newyork.html">New York <span class="sr-only">(current)</span></a>
                     <a class="nav-link" href="sanfran.html">San Francisco</a>
                     <a class="nav-link" href="lasvegas.html">Las Vegas</a>
-                    <a class="nav-item nav-link" data-toggle="modal" data-target="#contactModal" href="#">Contact</a>
-
+                    <a class="nav-item nav-link" data-toggle="modal" data-target="#contactUsForm" href="#contactUsForm">Contact</a>
+                    
                 </div>
             </div>
         </nav>
 
     </header>
 
-    <!-- Bootstrap Modal from Bootstrap documentation-->
-
-    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <!-- Modal start. Code from https://getbootstrap.com/docs/4.5/components/modal/-->
+    <div class="modal fade" id="contactUsForm" tabindex="-1" aria-labelledby="contactUsForm" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
+            <div class="modal-content text-center">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="contactModalLabel">Contact</h5>
+                    <h5 class="modal-title" id="contactUs">
+                        Contact Us
+                    </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <div class="modal-body d-flex justify-content-center align-items-center">
                 </div>
             </div>
         </div>
@@ -187,10 +184,17 @@
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--EmailJS import. Code from https://www.emailjs.com/docs/sdk/installation/-->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+    <!--Email.js import-->
+    <script src="assets/js/email.js"></script>
     
     <script defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjTqMFU-YTWqEutCMVeGn9yDg6TGqMEKY&callback=initMap&libraries=places,geometry&v=weekly"></script>
-    <!--Map.js import-->
+    
+    
+     <!--Map.js import-->
+
     <script src="assets/js/map.js"></script>
 </body>
 
