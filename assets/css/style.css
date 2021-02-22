@@ -217,7 +217,7 @@ transition-delay: 5s;
 /* Destination Hero Images end */
 
 
-/*------------ Offers & Deals section -------------*/
+/*------------ American Greats Section -------------*/
 
 .places-overlay {
     position: absolute;
@@ -225,7 +225,7 @@ transition-delay: 5s;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .section_title {
@@ -236,7 +236,7 @@ transition-delay: 5s;
 .popular_places_area {
     padding-top: 142px;
     padding-bottom: 150px;
-    background: url("./assets/images/yosemite.jpg") no-repeat bottom right fixed;
+    background: url("/assets/images/yosemite.jpg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -307,127 +307,6 @@ transition-delay: 5s;
     color: #1EC6B6;
 }
 
-/*----------- Reviews Section ----------------*/
-
-#reviews {
-    padding-top: 142px;
-    padding-bottom: 150px;
-    background: linear-gradient(-100deg,white 50%,purple 50%);
-    
-}
-
-.review-title {
-    padding-top: 20px;
-    margin-bottom: 50px;
-    width: 100%;
-    text-align: center;
-    color: #000;
-}
-
-.ml12 {
-  font-weight: 200;
-  font-size: 1.8em;
-  text-transform: uppercase;
-  letter-spacing: 0.5em;
-}
-
-.ml12 .letter {
-  display: inline-block;
-  line-height: 1em;
-}
-
-.img-text {
-    width: 100%;
-    height: 300px;
-    display: block;
-    text-align: center;
-    padding: 40% 5%;
-    background: #262626;
-    color: #fff;
-    border-radius: 15px;
-}
-
-.img-text h2 {
-    font-size: 25px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-.img-text p {
-    font-size: 14px;
-}
-
-.single-box {
-    position: relative;
-    margin-bottom: 30px;    
-}
-
-.img-area {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    border: 5px solid #fff;
-    overflow: hidden;
-    top: 15px;
-    left: 125px;
-    border-radius: 50%;
-}
-
-.img-area img {
-    width: 100%;
-}
-
-.carousel-indicators {
-    left: 0;
-    top: auto;
-    bottom: -70px;
-}
-
-.carousel-indicators li {
-    background: #000;
-    border-radius: 50%;
-    height: 15px;
-    width: 15px;
-}
-
-.carousel-indicators :active {
-    background: #fff;
-}
-
-
-/* Destination Hero Images start */
-
-.hero-image-container {
-  padding: 0;
-}
-
-.hero-images {
-  width: 100%;
-  height: 66vh;
-  object-fit: cover;
-}
-
-.sydney-hero-image {
-  object-position: 90% 50%;
-}
-
-.melbourne-hero-image {
-  object-position: 80% 80%;
-}
-
-.brisbane-hero-image {
-  object-position: 50% 70%;
-}
-
-/* Destination Hero Images end */
-
-/* Quotes start */
-
-.blockquote-footer::before {
-  content: "";
-}
-
-/* Quotes end */
 
 /* Dropdown menu start */
 
@@ -565,24 +444,50 @@ transition-delay: 5s;
 
 /*------- Footer --------*/
 
-.footer-row {
-    height: 10px;
+.social-media-icons {
+  padding: 0;
+  font-size: 0;
+  margin: 0 auto 20px auto;
+  max-width: 300px;
 }
 
-.socials {
-    position: relative;
-    bottom: 3rem;
-    text-align: center;
-    list-style: none;
-    font-size: 1.5em;
-    width: 100%;
-    margin: 0 -15px;
+.social-media-icons li {
+  width: 25%;
 }
 
-.socials li {
-    display: inline-block;
-    margin: 5%;
+.social-media-icons li i {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #1b1b1b;
+  margin-top: 5px;
 }
+
+.social-media-icons li i:hover {
+  color: #00a6e6;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 0;
+}
+
+.social-media-icons li i:hover {
+  transform: scale(1.5);
+}
+
+.footer-links {
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #636363;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.footer-links a:hover {
+    color: #2e2e2e;
+}
+
 
 
 

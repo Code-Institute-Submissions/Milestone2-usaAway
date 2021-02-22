@@ -37,7 +37,7 @@
 
     </header>
 
-    <!-- Modal start. Code from https://getbootstrap.com/docs/4.5/components/modal/-->
+    <!-- Modal start-->
     <div class="modal fade" id="contactUsForm" tabindex="-1" aria-labelledby="contactUsForm" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content text-center">
@@ -60,12 +60,10 @@
         <!--Hero Image start-->
         <div class="row no-gutters">
             <div class="col-12">
-                <!--Image from https://www.shutterstock.com/image-photo/arches-covered-pink-bougainvillea-flowers-southbank-379090987-->
                 <img class="hero-images lasvegas-hero-image" src="assets/images/lasvegas.jpg"
                     alt="Image of the Bellagio and Planet Hollywood Hotels" />
             </div>
         </div>
-        <!--Hero Image end-->
         <!--Main content container start-->
         <div class="content-wrapper">
             <div class="container content-container">
@@ -75,11 +73,9 @@
                         <h1 class="section-heading text-center">Las Vegas</h1>
                     </div>
                 </div>
-                <!--Section Heading end-->
-                <!--Quote start-->
                 <div class="row no-gutters">
                     <div class="col-12 text-center">
-                        <!--Blockquote code from https://getbootstrap.com/docs/4.5/content/typography/#blockquotes-->
+                        
                         <blockquote class="blockquote quotes">
                             <!--Text from google-->
                             <p class="paragraph blockquote-text">
@@ -96,8 +92,8 @@
                         </blockquote>
                     </div>
                 </div>
-                <!--Quote end-->
-                <!--Dropdown start. Code from https://getbootstrap.com/docs/4.5/components/dropdowns/-->
+                
+                <!--Dropdown-->
                 <div class="dropdown text-center">
                     <button class="dropdown-toggle" value="tourist_attraction" type="button" id="dropdownMenuButton"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -122,10 +118,10 @@
                         </button>
                     </div>
                 </div>
-                <!--Dropdown end-->
-                <!--Map and results table start-->
+                
+                <!--Map and results table-->
                 <div class="row no-gutters">
-                    <!--Tabs start. Code from https://getbootstrap.com/docs/4.5/components/navs/#tabs-->
+                    <!--Tabs start-->
                     <div class="d-block d-md-none col-12">
                         <ul class="nav nav-pills" id="pills-tab" role="tablist">
                             <li class="nav-item text-center map-tabs" role="presentation">
@@ -138,45 +134,72 @@
                             </li>
                         </ul>
                     </div>
-                    <!--Tabs end-->
-                    <!--Tab content start. Code from https://getbootstrap.com/docs/4.5/components/navs/#tabs-->
+                    
+                    <!--Tab content-->
                     <div class="col-12">
                         <div class="row no-gutters tab-content" id="pills-tabContent">
                             <!--Map start-->
                             <div class="col-12 col-md-8 tab-pane fade show active" id="map-view" role="tabpanel"
                                 aria-labelledby="map-view-tab"></div>
-                            <!--Map end-->
+                            
                             <!--Results table start-->
                 <div class="col-12 col-md-4 table-text tab-pane fade" id="list-view" role="tabpanel" aria-labelledby="list-view-tab">
                 </div>
-                <!--Results table end-->
+                
                         </div>
                     </div>
-                    <!--Tab content end-->
+                    
                 </div>
-                <!--Map and results table end-->
+                
                 
             </div>
         </div>
-        <!--Main content container end-->
+        
     </section>
-    <!--Section end-->
 
-
+    <!--Footer-->
     <footer>
-        <div class="container-fluid">
-            <div class="row footer-row">
-                <ul class="socials">
-                    <li><a href="https://www.tripadvisor.co.uk/" target="_blank"></a><i class="fab fa-tripadvisor"></i>
-                    </li>
-                    <li><a href="https://www.instagram.com/" target="_blank"></a><i class="fab fa-instagram"></i></li>
-                    <li><a href="https://www.facebook.com/" target="_blank"></a><i class="fab fa-facebook"></i></li>
-                    <li><a href="https://twitter.com/?lang=en-gb" target="_blank"></a><i class="fab fa-twitter"></i>
-                    </li>
-                </ul>
+        <div class="row no-gutters footer-container">
+            <div class="col-12 col-md-8 offset-md-2">
+                <div class="social-media-icons">
+                    <ul class="list-inline no-gutters">
+                        <li class="col-3 list-inline-item text-center">
+                            <a href="https://www.facebook.com" target="_blank">
+                                <i class="fab fa-facebook hvr-grow" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="col-3 list-inline-item text-center">
+                            <a href="https://www.twitter.com" target="_blank">
+                                <i class="fab fa-twitter hvr-grow" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="col-3 list-inline-item text-center">
+                            <a href="https://www.instagram.com" target="_blank">
+                                <i class="fab fa-instagram hvr-grow" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="col-3 list-inline-item text-center">
+                            <a href="https://www.youtube.com" target="_blank">
+                                <i class="fab fa-youtube hvr-grow" aria-hidden="true"></i>
+                                <span class="sr-only">YouTube</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <p class="paragraph paragraph-footer footer-links text-center">
+                    <a href="newyork.html"><strong>New York</strong></a>| <a href="sanfran.html"><strong>San
+                            Francisco</strong></a>| <a href="lasvegas.html"><strong>Las Vegas</strong></a>|
+                    <a href="#ContactUsForm" data-toggle="modal" data-target="#contactUsForm"><strong>Contact</strong></a>
+                </p>
+                <p class="paragraph paragraph-footer text-center">
+                    Website designed by Euan Fennell &copy;2021
+                </p>
             </div>
         </div>
-
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"

@@ -207,6 +207,7 @@ function getPlaceDetails(marker) {
       "formatted_phone_number",
       "rating",
       "website",
+      "price_level",
     ],
   };
 
@@ -227,7 +228,11 @@ function getPlaceDetails(marker) {
         )}${notUndefined(
           "Telephone:",
           results.formatted_phone_number
-        )}${notUndefined("Rating:", ratings(results.rating))}</tbody></table>`
+        )}${notUndefined("Rating:", ratings(results.rating))}${notUndefined(
+          "price_level:",
+          results.formatted_price_level
+        )}</tbody></table>`
+        
       );
       //Code for opening infoWindow is from https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch
       infoWindow.open(map, marker);
