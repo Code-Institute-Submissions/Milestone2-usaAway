@@ -209,7 +209,7 @@ I have also used Lighthouse within the devtools to check the performance of the 
 ![lasvegas.html](assets/images/lighthouse/lasvegas.png)
 
 
-Further testing for this site can also be found here [Manual Testing]()
+Further testing for this site can also be found here [Manual Testing](https://github.com/horizons83/Milestone2-usaAway/blob/master/TESTING.md)
 
 
 
