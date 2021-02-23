@@ -1,4 +1,4 @@
-![responsive image](../images/responsive/site.png)
+![responsive image](assets/images/responsive/site.png)
 This is a screenshot from [Am I Responsive](http://ami.responsivedesign.is/)
 # usaΛway
 
