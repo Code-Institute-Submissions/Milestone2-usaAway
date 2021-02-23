@@ -1,4 +1,4 @@
-![responsive image](assets/images/responsive/site.png)
+![responsive image](../images/responsive/site.png)
 This is a screenshot from [Am I Responsive](http://ami.responsivedesign.is/)
 # usaΛway
 
@@ -113,7 +113,7 @@ I wanted to use plain colours like whites for backgrounds where no images were p
 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [Javascript] (https://www.javascript.com/)
+- [Javascript](https://www.javascript.com/)
 
 ### Frameworks Libraries and Programs
 
@@ -209,7 +209,7 @@ I have also used Lighthouse within the devtools to check the performance of the 
 ![lasvegas.html](assets/images/lighthouse/lasvegas.png)
 
 
-Further testing for this site can also be found here [Manual Testing](
+Further testing for this site can also be found here [Manual Testing]()
 
 
 
